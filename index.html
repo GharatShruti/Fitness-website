@@ -3,63 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
     <title>Fitness Website</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Classes</a>
-        <a href="#">Trainers</a>
-        <a href="#">Blog</a>
-        <a href="#">Diet Plans</a>
-        <a href="#">Offers</a>
-    </nav>
-    <div class="content">
-        <h1>WHY IS FITNESS IMPORTANT?</h1>
-        <P>To put it simply, physical activity and exercise is important for everyone. Children, adolescents, and adults of all ages need regular physical activity. Physical activity promotes good health, and you should stay active throughout all stages of your life regardless of your body type or BMI.Understanding the benefits of physical fitness and knowing how active you should be can help you maintain good health and improve your overall quality of life.</P>
-    </div>
-    <div class="pictures">
-        <img src="https://t3.ftcdn.net/jpg/04/29/35/62/360_F_429356296_CVQ5LkC6Pl55kUNLqLisVKgTw9vjyif1.jpg" alt="fitness">
-    </div>
-    <div class="contentt">
-        <h1>HOW CAN WE HELP YOU?</h1>
-        <p>
-            Welcome to our fitness hub, where we are dedicated to empowering you on your journey to a healthier and stronger lifestyle. At [Your Fitness Website Name], we believe in the transformative power of fitness, encompassing not only physical strength but also mental well-being. Explore expert-guided workout routines tailored to your goals, discover nutritious recipes to fuel your body, and delve into articles that unravel the latest trends and science behind fitness. Whether you're a seasoned athlete or just starting, our comprehensive resources and motivational content are designed to inspire and guide you every step of the way. Join our vibrant community, and let's embark on a path to vitality and well-rounded health together. Your fitness adventure starts here!
-        </p>
-    </div>
-    <div class="register">
-        <form class="registration-form">
-            <div class="form">
-                <h1>Register NOW, So We Can Help You Achieve Your Goals!</h1>
-                
-                <label for="fullName">Name:</label>
-                <input type="text" id="fullName" name="fullName" required>
-                <br>
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                <br>
+    <header>
+        <h1>Fitness Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="workouts.html">Workouts</a></li>
+                <li><a href="recipes.html">Recipes</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-               
-                <label for="password">Password:</label>
-                <input type="password" id="password" name="password" required>
-                <br>
+    <section class="hero">
+        <h2>Welcome to Fitness Hub</h2>
+        <p>Your ultimate destination for fitness and wellness!</p>
+        <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv3su-PqfDq1LS0ICEBkUqtZ3LH8sX1yayOA&usqp=CAU">
+    </section> -->
 
-                <input type="submit" value="Register">
-            </div>
+    <section class="about">
+        <h2>About Us</h2>
+        <p>We are committed to helping you achieve your fitness goals with our expert trainers, personalized workout plans, and nutritious recipes.</p>
+    </section>
+
+    <section class="membership">
+        <h2>Membership Registration</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="phone">Phone:</label><br>
+            <input type="tel" id="phone" name="phone" required><br>
+            <input type="submit" value="Submit">
         </form>
-    </div>
-    <div class="footer">
-        <h2>Contact Us</h2>
-        <p>Email: info@fitnesswebsite.com</p>
-        <p>Phone: (123) 456-7890</p>
-        <p>Address: Shanti Vihar, opp railway station, Virar West</p>
-        <br>
-        <h3>You can also connect us on:</h3>
-        <p>Instagram   Facebook   Twitter</p>
-        <i class="fas fa-cloud"></i>
-    </div>
+    </section>
+<!-- 
+    <footer>
+        <p>&copy; 2024 Fitness Hub. All rights reserved.</p>
+    </footer> -->
 </body>
 </html>
